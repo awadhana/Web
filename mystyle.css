@@ -9,6 +9,10 @@ h1 {
  text-align: center;
  font: italic 200% sans-serif;
 }
+h3 {
+ color: #000000;
+ text-align: center;
+}
 p {
  color: #000000;
  text-align: left;
@@ -35,23 +39,25 @@ font-size:3rem;
 .favorites {
   font-size: 15px;
   position:relative;
-  right:-750px;
-  top:-380px;
+  right:-770px;
+  top:-280px;
 }
 .tableW{
+
   width:40% ;
   position:relative;
   right:-450px;
   top:-550px;
 }
+table tr:nth-child(even) {background-color: darkgrey    ;}
 
 .educationH{
   float: left;
 }
 .workH{
   position:relative;
-  right:350px;
-  top:-350px;
+  right:300px;
+  top:-280px;
 }
 .body{
   font-family: sans-serif;
@@ -85,13 +91,4 @@ a:hover {
 	-webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
 	box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
 
-}
-#rowA{
-  background-color: darkgrey;
-}
-#rowB{
-  background-color: white;
-}
-#rowC{
-  background-color: lightyellow;
 }
